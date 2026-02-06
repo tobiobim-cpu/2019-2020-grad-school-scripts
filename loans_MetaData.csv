@@ -1,0 +1,105 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Postsecondary graduates who owed money for their education to government-sponsored student loans at graduation, by province of study, level of study, field of study and sex",37100202,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710020201",1;2;3,"CURRENT - a cube available to the public and that is current",Occasional,2015-01-01,2015-01-01,5
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,"Province of study",,
+2,"Level of study",,
+3,"Field of study",3,
+4,Sex,,
+5,Statistics,5;6,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,4,
+1,"Newfoundland and Labrador",[10],2,1,,,
+1,"Prince Edward Island",[11],3,1,,,
+1,"Nova Scotia",[12],4,1,,,
+1,"New Brunswick",[13],5,1,,,
+1,Quebec,[24],6,1,,,
+1,Ontario,[35],7,1,,,
+1,Manitoba,[46],8,1,,,
+1,Saskatchewan,[47],9,1,,,
+1,Alberta,[48],10,1,,,
+1,"British Columbia",[59],11,1,,,
+2,"All levels of study",,1,,,,
+2,College,,2,1,,7,
+2,"Bachelor's",,3,1,,8,
+2,Professional,,4,1,,9,
+2,"Master's",,5,1,,10,
+2,Doctorate,,6,1,,,
+3,"All fields of study",,1,,,3,
+3,Education,[1],2,1,,,
+3,"Visual and performing arts, and communications technologies",[2],3,1,,,
+3,Humanities,[3],4,1,,,
+3,"Social and behavioural sciences and law",[4],5,1,,,
+3,"Business, management and public administration",[5],6,1,,,
+3,"Physical and life sciences and technologies",[6],7,1,,,
+3,"Mathematics, computer and information sciences",[7],8,1,,,
+3,"Architecture, engineering, and related technologies",[8],9,1,,,
+3,"Agriculture, natural resources and conservation",[9],10,1,,,
+3,"Health and related fields",[10],11,1,,,
+3,"Personal, protective and transportation services",[11],12,1,,,
+3,"Other instructional programs",[12],13,1,,,
+3,"All fields of study - STEM",[a],14,,,11,
+3,"All fields of study - BHASE",[b],15,,,11,
+4,"Both sexes",,1,,,,
+4,Males,,2,1,,,
+4,Females,,3,1,,,
+5,"Number of graduates",,1,,,,
+5,"Average debt owed at graduation",,2,,,,
+5,"Median debt owed at graduation",,3,,,,
+5,"Percentage of graduates with large debt at graduation ($30,000 and over)",,4,,,,
+5,"Average debt owed at time of interview",,5,,,13,
+5,"Median debt owed at time of interview",,6,,,13,
+5,"Percentage of graduates with large debt at time of interview ($30,000 and over)",,7,,,14,
+5,"Percentage of debt paid off at time of interview",,8,,,12,
+5,"Employed at time of interview",,9,,,,
+5,"Average personal income in the year prior to interview",,10,,,,
+5,"Median personal income in the year prior to interview",,11,,,,
+5,"Average age at graduation",,12,,,,
+5,"Median age at graduation",,13,,,,
+5,"Married or living common law at time of interview",,14,,,,
+5,"With dependent children at time of interview",,15,,,,
+5,"With previous postsecondary education",,16,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+5012,"National Graduates Survey"
+
+"Subject Code","Subject Name"
+37,"Education, training and learning"
+
+"Note ID",Note
+1,"The target population for the 2018 National Graduates Survey (NGS) (class of 2015) corresponds to graduates of public postsecondary educational institutions in Canada during the 2015 calendar year who were living in Canada at the time of the interview."
+2,"This table excludes graduates who pursued further education between graduation and the time of the interview."
+3,"Field of study refers to the major field of study reported by each graduate, with each response assigned a 6-digit code within the standard statistical classification system “Classification of Instructional Programs (CIP) Canada 2016”. The Field of study dimension includes an aggregate across all fields of study (all CIP codes), as well as two separate and distinct standard aggregate groupings of CIP codes. The first of these groupings is “Variant of CIP - Primary groupings”, and includes 12 primary grouping categories.  The second of these is “Variant of CIP 2016 - STEM and BHASE groupings”, and includes the two categories STEM and BHASE. The STEM fields of study include science, technology, engineering, mathematics and computer sciences. The BHASE fields of study encompass business, humanities, health, arts, social science, education, as well as legal studies, trades, services, natural resources and conservation. The “Variant of CIP 2016 - STEM and BHASE groupings” is not a higher level aggregation of “Variant of CIP - Primary groupings”."
+4,"The Canada-level estimates include the Yukon, the Northwest Territories and Nunavut."
+5,"All estimates were subject to rounding."
+6,"Quality indicators are provided for selected estimates, and are displayed as a superscript beside the estimate.  The quality indicator is based on the coefficient of variation (CV) of the estimate and the number of unweighted respondent records that contribute to the estimate. The quality indicators for the 2018 National Graduates Survey (NGS) (class of 2015) are:  A: Excellent - CV is less than or equal to 0.05;  B: Very good - CV is greater than 0.05 and less than or equal to 0.15;  C: Good - CV is greater than 0.15 and less than or equal to 0.25;  D: Acceptable - CV is greater than 0.25 and less than or equal to 0.35;  E: Use with caution - CV is greater than 0.35 or the number of records that contribute to the estimate is less than 10.  The quality indicators for the previous cycles of the NGS are: E: Use with caution - CV greater than or equal to 16.6 and less than or equal to 33.3;  F: Too unreliable to be published - CV greater than 33.3."
+7,"College includes college or other non-university certificates, college or other non-university diplomas, collège d'enseignement général et professionnel (CEGEP) certificates, and CEGEP diplomas."
+8,"Bachelor's includes bachelor's degrees (excluding degrees in law, medicine, dentistry, veterinary medicine, optometry, and pharmacy), university certificates below bachelor's degrees, and university diplomas below bachelor's degrees."
+9,"Professional includes undergraduate degree and post-baccalaureate non-graduate degree programs in law, medicine, dentistry, veterinary medicine, optometry, and pharmacy."
+10,"Master's includes master's degrees, university certificates above bachelor's degrees, and university diplomas above bachelor's degrees."
+11,"This variable is derived using the “Variant of CIP 2016 - STEM and BHASE groupings”, a variant of the ""Classification of Instructional Programs (CIP) Canada 2016"", which classifies fields of study into STEM (science, technology, engineering, mathematics and computer sciences) and BHASE (business, humanities, health, arts, social science, education, as well as legal studies, trades, services, natural resources and conservation)."
+12,"Percentage of debt paid off at time of interview = ((GRAD - INT)/GRAD) * 100%, where:  GRAD =  total amount of debt at graduation for all graduates who had debt;  INT = total amount of debt at the time of the interview for all graduates who had debt at graduation."
+13,"Includes graduates who had completely repaid their student loans at time of interview."
+14,"Excludes graduates who had completely repaid their student loans at time of interview."
+
+"Correction ID","Correction Date","Correction Note"
+
+
